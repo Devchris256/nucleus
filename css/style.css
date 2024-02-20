@@ -1,15 +1,30 @@
+@import "./header.css";
+@import "./navegation.css";
+
 :root {
   font-size: 16px;
+  --fontMain: "Poppins", sans-serif;
+  --titleOne: 900 1.875rem/1.2 var(--fontMain);
   --primary: #6834a6;
   --white: #fff;
   --black: #000000;
-  --fontMain: "Poppins", sans-serif;
 }
 
 body {
   margin: 0;
   font-family: var(--fontMain);
   line-height: 1.5;
+  color: var(--black);
+}
+
+h1 {
+  font: var(--titleOne);
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.125rem;
+  }
 }
 
 a {
@@ -19,4 +34,10 @@ a {
 img {
   vertical-align: bottom;
   inline-size: 100%;
+}
+
+[class$="__wrapper"] {
+  max-inline-size: 75rem;
+  margin: 0 auto;
+  padding-inline: 1rem;
 }
