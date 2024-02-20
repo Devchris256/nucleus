@@ -1,10 +1,15 @@
-@import "./header.css";
 @import "./navegation.css";
+@import "./list.css";
+@import "./header.css";
+@import "./nucleus.css";
 
 :root {
   font-size: 16px;
+  scroll-behavior: smooth;
   --fontMain: "Poppins", sans-serif;
   --titleOne: 900 1.875rem/1.2 var(--fontMain);
+  --titleTwo: 900 1.875rem/1.2 var(--fontMain);
+  --titleThree: 900 1.75rem/1.2 var(--fontMain);
   --primary: #6834a6;
   --white: #fff;
   --black: #000000;
@@ -24,6 +29,26 @@ h1 {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 3.125rem;
+  }
+}
+
+h2 {
+  font: var(--titleTwo);
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 3.75rem;
+  }
+}
+
+h3 {
+  font: var(--titleThree);
+}
+
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 2rem;
   }
 }
 
