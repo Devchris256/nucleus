@@ -1,0 +1,18 @@
+@import "./testimony.css";
+
+.testimonyList {
+  background: var(--primary);
+  padding-block: 2.5rem;
+}
+
+.testimonyList__title {
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .testimonyList__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}

@@ -4,6 +4,7 @@
 @import "./nucleus.css";
 @import "./segurity.css";
 @import "./commission.css";
+@import "./testimony-list.css";
 
 :root {
   font-size: 16px;
