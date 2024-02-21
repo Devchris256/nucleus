@@ -1,5 +1,4 @@
 .nucleus__title {
-  text-align: center;
   margin-block-start: 0;
 }
 
@@ -14,6 +13,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .nucleus {
+    padding-block: 3rem;
+  }
+
   .nucleus__content {
     display: grid;
     grid-template-columns: 1fr 2fr;
