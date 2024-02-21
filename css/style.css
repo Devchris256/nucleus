@@ -5,6 +5,7 @@
 @import "./segurity.css";
 @import "./commission.css";
 @import "./testimony-list.css";
+@import "./footer.css";
 
 :root {
   font-size: 16px;
@@ -14,6 +15,7 @@
   --titleTwo: 900 1.875rem/1.2 var(--fontMain);
   --titleThree: 900 1.75rem/1.2 var(--fontMain);
   --primary: #6834a6;
+  --purple: #5a30a0;
   --white: #fff;
   --black: #000000;
 }
