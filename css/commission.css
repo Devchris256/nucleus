@@ -1,0 +1,35 @@
+.commission {
+  padding-block-start: 2rem;
+}
+
+.commission__text {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-block-end: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .commission {
+    padding-block-start: 3rem;
+  }
+
+  .commission__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .commission__details {
+    align-self: center;
+  }
+
+  .commission__text {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+
+  .commission__img {
+    align-self: flex-end;
+  }
+}

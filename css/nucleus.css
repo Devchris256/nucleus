@@ -1,3 +1,7 @@
+.nucleus {
+  padding-block-end: 2rem;
+}
+
 .nucleus__title {
   margin-block-start: 0;
 }

@@ -3,6 +3,7 @@
 @import "./header.css";
 @import "./nucleus.css";
 @import "./segurity.css";
+@import "./commission.css";
 
 :root {
   font-size: 16px;
@@ -59,8 +60,8 @@ a {
 }
 
 img {
-  vertical-align: bottom;
   inline-size: 100%;
+  vertical-align: bottom;
 }
 
 [class$="__wrapper"] {
